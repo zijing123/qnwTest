@@ -3,6 +3,19 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>测试页面</title>
+
+    <script type="text/javascript" src="/qnwTest/jquery/jquery-2.2.2.js"></script>
+    <script type="text/javascript" src="/qnwTest/test.js"></script>
+    <style type="text/css" >
+
+
+    </style>
+    <script>
+        $(document).ready(function(){
+            aa();
+
+        });
+    </script>
 </head>
 <body>
 <table>
@@ -13,13 +26,13 @@
     </tr>
 
 </table>
-<button>
-    nihaoyoagsdf
+<button id="yjbtn" onclick="bb()">
+    圆角按钮
 </button>
 <label>sdfsdfsdfsdf</label>
 <form name="myform" id="myform" action="">
 
-    <label for="username">姓名：</label>
+    <label id="name">姓名：</label>
     <input id="username"  name="username" value="" />
 
 </form>
